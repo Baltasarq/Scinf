@@ -38,9 +38,15 @@ class respondona
 private
 	hecho false,
 with
-	dev_msg [ n;
+	dev_msg [ n num_turns;
+		#ifdef G_MASCULINO;
+			num_turns = turnos;
+		#endif;
+		#ifndef G_MASCULINO;
+			num_turns = turns;
+		#endif;
 		self.haz_accion();
-		if ((turns % 3) == 0)
+		if ((num_turns % 3) == 0)
 		{
 			self.num = random(self.longitud() - 1);
 			return self.elemento(self.num);

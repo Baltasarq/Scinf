@@ -55,7 +55,7 @@ with
         print (string) s;
         s_normal();
         print "~";
-        wait();
+        wait( "..." );
         print "^";
     ],
     think [s;

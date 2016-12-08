@@ -1,0 +1,6 @@
+*[A-Z]*.h
+*.z*
+*.ulx
+*.inf
+*.m*
+scratch/
