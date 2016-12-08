@@ -1,0 +1,7 @@
+Licencia
+
+Distribución para la compilación de relatos interactivos en Inform, I6Sp e InformATE!.
+
+Este programa se distribuye "TAL CUAL", con la esperanza de que será útil. Sin embargo, en el caso improbable de que su uso produzca cualquier tipo de daños, físicos, económicos, o incluso morales, su autor no podrá ser culpado en cualquier manera.
+
+Esta distribución incluye un cúmulo de programas y librerías, y si bien es GPL en sí misma (ver scinf.nsis), las licencias de cada programa y librería rigen sobre la distribución misma.

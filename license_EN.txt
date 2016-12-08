@@ -1,0 +1,8 @@
+License
+===
+
+Distribution for the compilation of interactive fiction pieces using Inform, I6Sp and InformATE!
+
+This program is distributed "AS IS", in the hope that it will be useful. In the improbable case that it may cause harm of any kind, including phisical, moral or economic, its author will not be blamed in any possible manner.
+
+This distibution includes a collection of applications and libraries, and while it is distributed as GPL (plase see scinf.nsis), the licenses for each program and library are applyable.
