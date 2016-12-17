@@ -27,7 +27,7 @@ private
     sonidoLetra Nothing,
     sonidoMensaje Nothing,
 
-    volumen VOLUME_NORMAL,
+    volumen SMW_VOLUME_NORMAL,
     correr false,
 with
     presenta [ch;

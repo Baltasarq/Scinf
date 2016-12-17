@@ -8,6 +8,8 @@
 ! Para documentacion y ejemplo de uso ver cortodem.inf
 !
 
+System_file;
+
 #ifndef CORTOS_H_;
 Constant CORTOS_H_;
 

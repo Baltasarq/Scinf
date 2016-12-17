@@ -4,10 +4,10 @@
 !     van cambiando          (PensamientoEnCadena)
 !     varían                 (PensamientosVarios)
 
+System_file;
+
 #Ifndef PENSAMIENTO_H_;
 Constant PENSAMIENTO_H_;
-
-System_file;
 
 Include "responde";
 Include "character";

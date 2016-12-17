@@ -7,11 +7,10 @@
 ! Es necesario el módulo array.h
 ! Este código es freeware.
 ! -----------------------------------------------------------------------------
+System_file;
 
 IFNDEF RESPONDE_H;
 Constant RESPONDE_H;
-
-System_file;
 
 Include "Array";
 Message "Compilando módulo de mensajes - respuesta v010924";
@@ -39,12 +38,11 @@ private
 	hecho false,
 with
 	dev_msg [ n num_turns;
-		#ifdef G_MASCULINO;
+		#Ifdef VersionIdioma;
 			num_turns = turnos;
-		#endif;
-		#ifndef G_MASCULINO;
+		#Ifnot;
 			num_turns = turns;
-		#endif;
+		#Endif;
 		self.haz_accion();
 		if ((num_turns % 3) == 0)
 		{
